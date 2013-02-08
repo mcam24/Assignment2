@@ -7,7 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "Fruit.h"
+#import "Vegetable.h"
+#import "Onion.h"
+#import "Potato.h"
+#import "Pumpkin.h"
 
 @interface ViewController ()
 
@@ -18,19 +21,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
     _cart = [NSMutableArray arrayWithCapacity:0];
     
-    for(int i = 0; i < 50; i++){
-        NSString * fruitName = [NSString stringWithFormat:@"Banana %d", i];
-        
-        if((i % 10) == 0){
-            fruitName = [NSString stringWithFormat:@"Free Banana %d", i];
-        }
-        Fruit * anonFruit = [[Fruit alloc] initWithWithName:fruitName andColor:@"Yellow" andShape:@"Curved"];
-        [_cart addObject:anonFruit];
-    }
+    Pumpkin * pumpkin1 = [[Pumpkin alloc] init];
+    Potato * potato1 = [[Potato alloc] init];
+    Onion * onion1 = [[Onion alloc] init];
     
+    [_cart addObject:pumpkin1];
+    [_cart addObject:potato1];
+    [_cart addObject:onion1];
     
 }
 
@@ -46,7 +46,7 @@
 
 -(NSString *) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-    return @"Fruit";
+    return @"Vegetable";
 }
 
 -(int) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -61,10 +61,10 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"TableViewCell"];
     }
     
-    Fruit * tempFruit = [_cart objectAtIndex:indexPath.row];
+    Vegetable * tempVegie = [_cart objectAtIndex:indexPath.row];
     
-    cell.textLabel.text = [tempFruit name];
-    cell.detailTextLabel.text = [tempFruit color];
+    cell.textLabel.text = [tempVegie name];
+    cell.detailTextLabel.text = [tempVegie color];
     return cell;
 }
 

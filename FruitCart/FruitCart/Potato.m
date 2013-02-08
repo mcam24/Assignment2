@@ -10,4 +10,12 @@
 
 @implementation Potato
 
+-init
+{
+    [self setName:@"Potato"];
+    [self setShape:@"Oval"];
+    [self setColor:@"Brown"];
+    return self;
+}
+
 @end

@@ -10,4 +10,12 @@
 
 @implementation Pumpkin
 
+-init
+{
+    [self setName:@"Pumpkin"];
+    [self setShape:@"Round"];
+    [self setColor:@"Orange"];
+    return self;
+}
+
 @end

@@ -21,6 +21,11 @@
 		555E433C16B852FF00696EF1 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433616B852FF00696EF1 /* Fruit.m */; };
 		555E433D16B852FF00696EF1 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433816B852FF00696EF1 /* Apple.m */; };
 		555E433E16B852FF00696EF1 /* GoldDelicious.m in Sources */ = {isa = PBXBuildFile; fileRef = 555E433B16B852FF00696EF1 /* GoldDelicious.m */; };
+		F524F4B816C4F8F20041D9A2 /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = F524F4B716C4F8F20041D9A2 /* Vegetable.m */; };
+		F524F4BB16C5695D0041D9A2 /* Onion.m in Sources */ = {isa = PBXBuildFile; fileRef = F524F4BA16C5695D0041D9A2 /* Onion.m */; };
+		F524F4BE16C5696E0041D9A2 /* Potato.m in Sources */ = {isa = PBXBuildFile; fileRef = F524F4BD16C5696E0041D9A2 /* Potato.m */; };
+		F524F4C116C5697D0041D9A2 /* Pumpkin.m in Sources */ = {isa = PBXBuildFile; fileRef = F524F4C016C5697D0041D9A2 /* Pumpkin.m */; };
+		F524F4C316C56E4A0041D9A2 /* Assignment2 SS.png in Resources */ = {isa = PBXBuildFile; fileRef = F524F4C216C56E4A0041D9A2 /* Assignment2 SS.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +51,15 @@
 		555E433916B852FF00696EF1 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
 		555E433A16B852FF00696EF1 /* GoldDelicious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoldDelicious.h; sourceTree = "<group>"; };
 		555E433B16B852FF00696EF1 /* GoldDelicious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoldDelicious.m; sourceTree = "<group>"; };
+		F524F4B616C4F8F20041D9A2 /* Vegetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetable.h; sourceTree = "<group>"; };
+		F524F4B716C4F8F20041D9A2 /* Vegetable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vegetable.m; sourceTree = "<group>"; };
+		F524F4B916C5695D0041D9A2 /* Onion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Onion.h; sourceTree = "<group>"; };
+		F524F4BA16C5695D0041D9A2 /* Onion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Onion.m; sourceTree = "<group>"; };
+		F524F4BC16C5696E0041D9A2 /* Potato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Potato.h; sourceTree = "<group>"; };
+		F524F4BD16C5696E0041D9A2 /* Potato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Potato.m; sourceTree = "<group>"; };
+		F524F4BF16C5697D0041D9A2 /* Pumpkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pumpkin.h; sourceTree = "<group>"; };
+		F524F4C016C5697D0041D9A2 /* Pumpkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pumpkin.m; sourceTree = "<group>"; };
+		F524F4C216C56E4A0041D9A2 /* Assignment2 SS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Assignment2 SS.png"; path = "../../../Desktop/Assignment2 SS.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,7 @@
 				555E432316B84E1E00696EF1 /* AppDelegate.m */,
 				555E432B16B84E1E00696EF1 /* ViewController.h */,
 				555E432C16B84E1E00696EF1 /* ViewController.m */,
+				F524F4C216C56E4A0041D9A2 /* Assignment2 SS.png */,
 				555E432E16B84E1E00696EF1 /* ViewController.xib */,
 				555E431A16B84E1D00696EF1 /* Supporting Files */,
 			);
@@ -126,6 +141,14 @@
 				555E433616B852FF00696EF1 /* Fruit.m */,
 				555E433A16B852FF00696EF1 /* GoldDelicious.h */,
 				555E433B16B852FF00696EF1 /* GoldDelicious.m */,
+				F524F4B616C4F8F20041D9A2 /* Vegetable.h */,
+				F524F4B716C4F8F20041D9A2 /* Vegetable.m */,
+				F524F4B916C5695D0041D9A2 /* Onion.h */,
+				F524F4BA16C5695D0041D9A2 /* Onion.m */,
+				F524F4BC16C5696E0041D9A2 /* Potato.h */,
+				F524F4BD16C5696E0041D9A2 /* Potato.m */,
+				F524F4BF16C5697D0041D9A2 /* Pumpkin.h */,
+				F524F4C016C5697D0041D9A2 /* Pumpkin.m */,
 			);
 			name = Fruits;
 			sourceTree = "<group>";
@@ -186,6 +209,7 @@
 				555E432816B84E1E00696EF1 /* Default@2x.png in Resources */,
 				555E432A16B84E1E00696EF1 /* Default-568h@2x.png in Resources */,
 				555E433016B84E1E00696EF1 /* ViewController.xib in Resources */,
+				F524F4C316C56E4A0041D9A2 /* Assignment2 SS.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +226,10 @@
 				555E433C16B852FF00696EF1 /* Fruit.m in Sources */,
 				555E433D16B852FF00696EF1 /* Apple.m in Sources */,
 				555E433E16B852FF00696EF1 /* GoldDelicious.m in Sources */,
+				F524F4B816C4F8F20041D9A2 /* Vegetable.m in Sources */,
+				F524F4BB16C5695D0041D9A2 /* Onion.m in Sources */,
+				F524F4BE16C5696E0041D9A2 /* Potato.m in Sources */,
+				F524F4C116C5697D0041D9A2 /* Pumpkin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +352,7 @@
 				555E433516B84E1E00696EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

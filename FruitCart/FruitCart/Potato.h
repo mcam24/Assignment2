@@ -6,8 +6,9 @@
 //  Copyright (c) 2013 DavidEvans. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Vegetable.h"
 
-@interface Potato : NSObject
+@interface Potato : Vegetable
+-init;
 
 @end

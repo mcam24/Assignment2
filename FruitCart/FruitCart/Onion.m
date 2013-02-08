@@ -10,4 +10,12 @@
 
 @implementation Onion
 
+-init
+{
+    [self setName:@"Onion"];
+    [self setShape:@"Round"];
+    [self setColor:@"White"];
+    return self;
+}
+
 @end
